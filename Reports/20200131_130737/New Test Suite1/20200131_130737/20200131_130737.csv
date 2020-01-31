@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite1,Chrome 79.0.3945.117,,,2020-01-31 13:07:45,2020-01-31 13:08:45,1m - 0.330s,PASSED
+,,,,,,,
+Test Cases/New Test Case2,Chrome 79.0.3945.117,,,2020-01-31 13:07:45,2020-01-31 13:08:45,59.372s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.117,,,2020-01-31 13:07:46,2020-01-31 13:08:16,29.549s,PASSED
+"navigateToUrl(""https://rcdev.redcapcloud.com/"")",Chrome 79.0.3945.117,,,2020-01-31 13:08:16,2020-01-31 13:08:39,23.513s,PASSED
+"setText(findTestObject(""Object Repository/Page_REDCap Cloud/input_DEMO_login_username""), ""sindhuja@hudson.edu"")",Chrome 79.0.3945.117,,,2020-01-31 13:08:39,2020-01-31 13:08:42,2.804s,PASSED
+"click(findTestObject(""Object Repository/Page_REDCap Cloud/span_Sign in""))",Chrome 79.0.3945.117,,,2020-01-31 13:08:42,2020-01-31 13:08:43,0.685s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_REDCap Cloud/input_sindhujahudsonedu_login_password""), ""bXLspohSZBY//OMeqnMAtw=="")",Chrome 79.0.3945.117,,,2020-01-31 13:08:43,2020-01-31 13:08:44,0.894s,PASSED
+"click(findTestObject(""Object Repository/Page_REDCap Cloud/span_Sign in""))",Chrome 79.0.3945.117,,,2020-01-31 13:08:44,2020-01-31 13:08:44,0.398s,PASSED
+closeBrowser(),Chrome 79.0.3945.117,,,2020-01-31 13:08:44,2020-01-31 13:08:45,0.822s,PASSED
+,,,,,,,
+Test Cases/New Test Case1,Chrome 79.0.3945.117,,,2020-01-31 13:08:45,2020-01-31 13:08:45,0.336s,PASSED
+return null,Chrome 79.0.3945.117,,,2020-01-31 13:08:45,2020-01-31 13:08:45,0.001s,PASSED
